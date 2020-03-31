@@ -13,7 +13,6 @@ import com.linecorp.bot.client.LineMessagingClient;
 import com.linecorp.bot.model.PushMessage;
 import com.linecorp.bot.model.action.MessageAction;
 import com.linecorp.bot.model.message.TemplateMessage;
-import com.linecorp.bot.model.message.TextMessage;
 import com.linecorp.bot.model.message.template.ConfirmTemplate;
 import com.linecorp.bot.model.response.BotApiResponse;
 
@@ -53,7 +52,7 @@ public class LINE {
 
 	public void replyMessage(String replyToken) {
 		final LineMessagingClient client = LineMessagingClient.builder(CHANNEL_ADDESS_TOKEN).build();
-		final TextMessage textMessage = new TextMessage("Hello world!");
+		//final TextMessage textMessage = new TextMessage("Hello world!");
 		//final ReplyMessage replyMessage = new ReplyMessage(replyToken, textMessage);
 		final BotApiResponse botApiRes;
 
