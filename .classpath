@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="lib/slacklet-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-api-client-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-cli-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-model-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-parser-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-servlet-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/line-bot-spring-boot-3.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="lib/okio-1.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
