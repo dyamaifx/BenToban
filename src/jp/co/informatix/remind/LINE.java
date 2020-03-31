@@ -50,7 +50,7 @@ public class LINE {
 
 	}
 
-	public void replyMessage(String replyToken) {
+	public static void main(String[] args) {
 		final LineMessagingClient client = LineMessagingClient.builder(CHANNEL_ADDESS_TOKEN).build();
 		//final TextMessage textMessage = new TextMessage("Hello world!");
 		//final ReplyMessage replyMessage = new ReplyMessage(replyToken, textMessage);
